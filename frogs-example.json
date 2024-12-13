@@ -1,0 +1,287 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - frogs",
+        "totalResults": "899",
+        "searchTerms": "frogs",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "e39334d6bde174112"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - frogs",
+        "totalResults": "899",
+        "searchTerms": "frogs",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "e39334d6bde174112"
+      }
+    ]
+  },
+  "context": { "title": "nls search" },
+  "searchInformation": {
+    "searchTime": 0.129981,
+    "formattedSearchTime": "0.13",
+    "totalResults": "899",
+    "formattedTotalResults": "899"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "(125) Page 35 - Great Lord Frog, and Lady Mouse - Glen Collection ...",
+      "htmlTitle": "(125) Page 35 - Great Lord <b>Frog</b>, and Lady Mouse - Glen Collection ...",
+      "link": "https://digital.nls.uk/special-collections-of-printed-music/archive/90474998",
+      "displayLink": "digital.nls.uk",
+      "snippet": "(125) Page 35 - Great Lord Frog, and Lady Mouse · Colour composite text file (pdf, 23474kb) · Colour composite text file (pdf, 7851kb) · Medium image file ( ...",
+      "htmlSnippet": "(125) Page 35 - Great Lord <b>Frog</b>, and Lady Mouse &middot; Colour composite text file (pdf, 23474kb) &middot; Colour composite text file (pdf, 7851kb) &middot; Medium image file (&nbsp;...",
+      "formattedUrl": "https://digital.nls.uk/special-collections-of-printed-music/.../90474998",
+      "htmlFormattedUrl": "https://digital.nls.uk/special-collections-of-printed-music/.../90474998",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuZYr82KfWETtFnQxqYVgr7mTxVpWjq_8D6A0Mrar7B0DlRD-O0gIDVjyN&s",
+            "width": "150",
+            "height": "258"
+          }
+        ],
+        "metatags": [{ "viewport": "width=device-width, initial-scale=1.0" }],
+        "cse_image": [
+          { "src": "https://deriv.nls.uk/dcn4/9047/90475012.4.jpg" }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Emperor and Empress's visit to England - Wars > Crimean War ...",
+      "htmlTitle": "Emperor and Empress&#39;s visit to England - Wars &gt; Crimean War ...",
+      "link": "https://digital.nls.uk/english-ballads/archive/74892745?mode=transcription",
+      "displayLink": "digital.nls.uk",
+      "snippet": "The Aldermen's breeches of purple and blue, will glisten so fine with a French parle veaux. There'll be baked frogs, & fried frogs, & frogs in a stew,",
+      "htmlSnippet": "The Aldermen&#39;s breeches of purple and blue, will glisten so fine with a French parle veaux. There&#39;ll be baked <b>frogs</b>, &amp; fried <b>frogs</b>, &amp; <b>frogs</b> in a stew,",
+      "formattedUrl": "https://digital.nls.uk/english-ballads/archive/74892745?mode...",
+      "htmlFormattedUrl": "https://digital.nls.uk/english-ballads/archive/74892745?mode...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDie2Glqygqkn90lIwLnjNx7jir_pkV4sTkKmZxWBMZFkV5Mo4L1OW-tc&s",
+            "width": "198",
+            "height": "255"
+          }
+        ],
+        "thumbnail": [
+          { "src": "https://deriv.nls.uk/dcn4/7489/74892747.4.jpg" }
+        ],
+        "metatags": [
+          {
+            "thumbnail": "https://deriv.nls.uk/dcn4/7489/74892747.4.jpg",
+            "viewport": "width=device-width, initial-scale=1.0"
+          }
+        ],
+        "cse_image": [
+          { "src": "https://deriv.nls.uk/dcn17/7489/74892747.17.jpg" }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Amphibians & Reptiles Amphibians & Reptiles",
+      "htmlTitle": "Amphibians &amp; Reptiles Amphibians &amp; Reptiles",
+      "link": "https://digital.nls.uk/pubs/e-monographs/2020/216636102.23.pdf",
+      "displayLink": "digital.nls.uk",
+      "snippet": "Females spend little time at the ponds and leave after spawning. Frogs and Toads. Top: Frog spawn with developing tadpoles. Below: Common toads in amplexus with ...",
+      "htmlSnippet": "Females spend little time at the ponds and leave after spawning. <b>Frogs</b> and Toads. Top: <b>Frog</b> spawn with developing tadpoles. Below: Common toads in amplexus with&nbsp;...",
+      "formattedUrl": "https://digital.nls.uk/pubs/e-monographs/2020/216636102.23.pdf",
+      "htmlFormattedUrl": "https://digital.nls.uk/pubs/e-monographs/2020/216636102.23.pdf",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdvgQcBd66g1jBDDeLDI6S98EX87BnBx6eYHFssIjhk_gYOGCJaBWWAGfy&s",
+            "width": "246",
+            "height": "205"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20170516144318+02'00'",
+            "creationdate": "D:20041215040639Z",
+            "producer": "Apogee Pilot Series3 v1.0"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///32123470d9309b673a192ef57cc8e9cda9baa9c279be17d756cd76b602c374f3"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "(122) Page 88 - Marriage of the the frog and the mouse - Glen ...",
+      "htmlTitle": "(122) Page 88 - Marriage of the the <b>frog</b> and the mouse - Glen ...",
+      "link": "https://digital.nls.uk/special-collections-of-printed-music/archive/91368911?mode=transcription",
+      "displayLink": "digital.nls.uk",
+      "snippet": "Hast thou any mind of me ? I have e'en great mind of thee. Who shall this marriage make ? Our lord, which is the rat. What shall we have to our supper ? Three ...",
+      "htmlSnippet": "Hast thou any mind of me ? I have e&#39;en great mind of thee. Who shall this marriage make ? Our lord, which is the rat. What shall we have to our supper ? Three&nbsp;...",
+      "formattedUrl": "https://digital.nls.uk/special-collections-of-printed-music/.../91368911?...",
+      "htmlFormattedUrl": "https://digital.nls.uk/special-collections-of-printed-music/.../91368911?...",
+      "pagemap": {
+        "metatags": [{ "viewport": "width=device-width, initial-scale=1.0" }]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "(161) Page 127 - Frog galliard, or Now, o now - Glen Collection of ...",
+      "htmlTitle": "(161) Page 127 - <b>Frog</b> galliard, or Now, o now - Glen Collection of ...",
+      "link": "https://digital.nls.uk/special-collections-of-printed-music/archive/91369379?mode=transcription",
+      "displayLink": "digital.nls.uk",
+      "snippet": "THE FROG GALLIARD, or NOW, O NOW ! ... I have found employed as a ballad tune. ... Galliard, and seems to have been commonly known by that name. ... Manuscript, ...",
+      "htmlSnippet": "THE <b>FROG</b> GALLIARD, or NOW, O NOW ! ... I have found employed as a ballad tune. ... Galliard, and seems to have been commonly known by that name. ... Manuscript,&nbsp;...",
+      "formattedUrl": "https://digital.nls.uk/special-collections-of-printed-music/.../91369379?...",
+      "htmlFormattedUrl": "https://digital.nls.uk/special-collections-of-printed-music/.../91369379?...",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqZlxh5NN_zT8KjAl3j-spsBE1zS4H-y4PrMDMueuhrm-onu6m0jCgHno&s",
+            "width": "177",
+            "height": "285"
+          }
+        ],
+        "metatags": [{ "viewport": "width=device-width, initial-scale=1.0" }],
+        "cse_image": [
+          { "src": "https://deriv.nls.uk/dcn17/9136/91369381.17.jpg" }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Relish for old Nick - Wars > Napoleonic Wars (1803-1815) - English ...",
+      "htmlTitle": "Relish for old Nick - Wars &gt; Napoleonic Wars (1803-1815) - English ...",
+      "link": "https://digital.nls.uk/english-ballads/archive/74891398?mode=transcription",
+      "displayLink": "digital.nls.uk",
+      "snippet": "And make the frogs leap in their bellies. III. Their impudent boaſt. Of invading our coaſt, Neptune ſwears they had better decline; For the Rogues may be ſure,",
+      "htmlSnippet": "And make the <b>frogs</b> leap in their bellies. III. Their impudent boaſt. Of invading our coaſt, Neptune ſwears they had better decline; For the Rogues may be ſure,",
+      "formattedUrl": "https://digital.nls.uk/english-ballads/archive/74891398?mode...",
+      "htmlFormattedUrl": "https://digital.nls.uk/english-ballads/archive/74891398?mode...",
+      "pagemap": {
+        "thumbnail": [
+          { "src": "https://deriv.nls.uk/dcn4/7489/74891400.4.jpg" }
+        ],
+        "metatags": [
+          {
+            "thumbnail": "https://deriv.nls.uk/dcn4/7489/74891400.4.jpg",
+            "viewport": "width=device-width, initial-scale=1.0"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "(1) - Curiosities and wonders > Vermin killer - Chapbooks printed in ...",
+      "htmlTitle": "(1) - Curiosities and wonders &gt; Vermin killer - Chapbooks printed in ...",
+      "link": "https://digital.nls.uk/chapbooks-printed-in-scotland/archive/104185177?mode=transcription",
+      "displayLink": "digital.nls.uk",
+      "snippet": "Earwigs, Eisli, fleas, Elies, foxes, Frogs, Gnats, Lice, Mice, Moths, Moles, Otters, Pismires, Polecats, Rats, Scorpions, Snails, Snakes, Spiders, Toads ...",
+      "htmlSnippet": "Earwigs, Eisli, fleas, Elies, foxes, <b>Frogs</b>, Gnats, Lice, Mice, Moths, Moles, Otters, Pismires, Polecats, Rats, Scorpions, Snails, Snakes, Spiders, Toads&nbsp;...",
+      "formattedUrl": "https://digital.nls.uk/chapbooks-printed-in-scotland/archive/104185177?...",
+      "htmlFormattedUrl": "https://digital.nls.uk/chapbooks-printed-in-scotland/archive/104185177?...",
+      "pagemap": {
+        "metatags": [{ "viewport": "width=device-width, initial-scale=1.0" }]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Notarial extract, 25 March 1557/1558, by Alexander Guthrie (I), from ...",
+      "htmlTitle": "Notarial extract, 25 March 1557/1558, by Alexander Guthrie (I), from ...",
+      "link": "https://manuscripts.nls.uk/repositories/2/archival_objects/1161",
+      "displayLink": "manuscripts.nls.uk",
+      "snippet": "... Frog, as heir to Janet, alias Dowy, Linton. (1)., 15 March 1511/1512. Item. Reference: Ch.5947. Request · Contact us · Order a Copy. Citation. Staff Only.",
+      "htmlSnippet": "... <b>Frog</b>, as heir to Janet, alias Dowy, Linton. (1)., 15 March 1511/1512. Item. Reference: Ch.5947. Request &middot; Contact us &middot; Order a Copy. Citation. Staff Only.",
+      "formattedUrl": "https://manuscripts.nls.uk/repositories/2/archival_objects/1161",
+      "htmlFormattedUrl": "https://manuscripts.nls.uk/repositories/2/archival_objects/1161",
+      "pagemap": {
+        "metatags": [
+          {
+            "referrer": "origin-when-cross-origin",
+            "viewport": "width=device-width, initial-scale=1",
+            "csrf-token": "q5jEa5bucNMeoFlyvSeyIMS0q84Y3I2l2LVyf9i3rSQzvDEqZt1OPou0StoadL0NPAMn/zSJVVufQ0Kqgf4s0w==",
+            "csrf-param": "authenticity_token"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Bull in a china shop - Occupations - English ballads - National ...",
+      "htmlTitle": "Bull in a china shop - Occupations - English ballads - National ...",
+      "link": "https://digital.nls.uk/english-ballads/archive/74897971",
+      "displayLink": "digital.nls.uk",
+      "snippet": "A bull in a china shop - first line reads: You've heard of a frog in an opera hat. Old woman of Rumford - first line reads: There was an old woman of ...",
+      "htmlSnippet": "A bull in a china shop - first line reads: You&#39;ve heard of a <b>frog</b> in an opera hat. Old woman of Rumford - first line reads: There was an old woman of&nbsp;...",
+      "formattedUrl": "https://digital.nls.uk/english-ballads/archive/74897971",
+      "htmlFormattedUrl": "https://digital.nls.uk/english-ballads/archive/74897971",
+      "pagemap": {
+        "thumbnail": [
+          { "src": "https://deriv.nls.uk/dcn4/7489/74897973.4.jpg" }
+        ],
+        "metatags": [
+          {
+            "thumbnail": "https://deriv.nls.uk/dcn4/7489/74897973.4.jpg",
+            "viewport": "width=device-width, initial-scale=1.0"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "What kind of sources do you need for your own project?",
+      "htmlTitle": "What kind of sources do you need for your own project?",
+      "link": "https://digital.nls.uk/project-blaster/pdf/stage2-what-kind-of-sources.pdf",
+      "displayLink": "digital.nls.uk",
+      "snippet": "Page1. Page 2. The same goes for creatures in the local river. A frog is a primary source, but a talk about frogs and other river creatures from a local ...",
+      "htmlSnippet": "Page1. Page 2. The same goes for creatures in the local river. A <b>frog</b> is a primary source, but a talk about <b>frogs</b> and other river creatures from a local&nbsp;...",
+      "formattedUrl": "https://digital.nls.uk/project-blaster/pdf/stage2-what-kind-of-sources.pdf",
+      "htmlFormattedUrl": "https://digital.nls.uk/project-blaster/pdf/stage2-what-kind-of-sources.pdf",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg5JbS6j_YiQoRhKpCuEMbRk6iH1pWrg_t2ccgQkVIOX0esAjpkjlBtI52&s",
+            "width": "385",
+            "height": "131"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20130127095916Z",
+            "creationdate": "D:20130127095916Z",
+            "creator": "Adobe Illustrator CS4",
+            "producer": "Adobe PDF library 9.00",
+            "title": "stage2-what-kind-of-sources1"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///8171afb9517dbc0948646d7a3708ac9e9e46d75dab2615d9da3f81b2bd7f11aa"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    }
+  ]
+}
