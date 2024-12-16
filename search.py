@@ -1,5 +1,4 @@
 import streamlit as st
-import json
 import os
 import requests
 
@@ -8,7 +7,7 @@ st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 
 primo_api = os.environ.get("PRIMO_SANDBOX_API")
 google_api = os.environ.get("NLS_GOOGLE_CUSTOM_SEARCH")
-cse_id = "e39334d6bde174112"
+cse_id = "00056ba479f1e4368"
 
 headers = {
     "Content-Type": "application/json",
@@ -57,10 +56,9 @@ def search_function(search_input):
                 "start": start,
             }
             google_url = "https://customsearch.googleapis.com/customsearch/v1"
-            r_google = requests.get(
-                google_url, params=google_params, headers=headers
-            ).json()
-            g_results.extend(r_google["items"])
+            r_google = requests.get(google_url, params=google_params, headers=headers)
+            r_google_json = r_google.json()
+            g_results.extend(r_google_json["items"])
             start += 10
     except KeyError:
         st.error("Google CSE results maxed out for the day")
@@ -122,7 +120,7 @@ def search_function(search_input):
             with st.container(border=True):
                 st.write("## Guides")
                 returned = 0
-                for item in events:
+                for item in guides:
                     title = item["title"]
                     link = item["link"]
                     st.markdown(f"[{title}]({link})")
@@ -142,6 +140,17 @@ def search_function(search_input):
                         st.markdown(f"[{title}]({link})&nbsp;&nbsp;_{author}_")
                     else:
                         st.markdown(f"[{title}]({link})")
+                    returned += 1
+                    if returned == max_results:
+                        break
+        if len(maps) > 0:
+            with st.container(border=True):
+                st.write("## Maps")
+                returned = 0
+                for item in films:
+                    title = item["title"]
+                    link = item["link"]
+                    st.markdown(f"[{title}]({link})")
                     returned += 1
                     if returned == max_results:
                         break
@@ -178,8 +187,6 @@ def search_function(search_input):
                     returned += 1
                     if returned == max_results:
                         break
-    # st.write(r_google)
-    # # st.write(r_primo.text)
 
 
 st.title("NLS Search page")
