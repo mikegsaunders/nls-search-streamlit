@@ -13,14 +13,13 @@ cse_id = "00056ba479f1e4368"
 # css
 hide_st_style = """
 <style>
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-header {visibility: hidden;}
+#MainMenu {display: none;}
+footer {display: none;}
+header {display: none;}
 a[href="https://streamlit.io/cloud"] {display: none !important;}
 div[class^="_profileContainer"] {display: none !important;}
 </style>
 """
-st.markdown(hide_st_style, unsafe_allow_html=True)
 # js
 js = """
 <script>
@@ -50,7 +49,6 @@ waitForElm('._link_gzau3_10').then((comm) => {
     comm.style.display = "none";
 });
 </script>"""
-html(js)
 
 headers = {
     "Content-Type": "application/json",
@@ -237,3 +235,5 @@ search_box = st.text_input("Search the site and catalogues")
 
 if search_box:
     search_function(search_box)
+st.markdown(hide_st_style, unsafe_allow_html=True)
+html(js)
