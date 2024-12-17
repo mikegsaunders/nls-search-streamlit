@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit.components.v1 import html
 import os
 import requests
 
@@ -9,6 +10,7 @@ primo_api = os.environ.get("PRIMO_SANDBOX_API")
 google_api = os.environ.get("NLS_GOOGLE_CUSTOM_SEARCH")
 cse_id = "00056ba479f1e4368"
 
+# css
 hide_st_style = """
 <style>
 #MainMenu {visibility: hidden;}
@@ -19,6 +21,15 @@ div[class^="_profileContainer"] {display: none !important;}
 </style>
 """
 st.markdown(hide_st_style, unsafe_allow_html=True)
+# js
+js = """
+<script>
+var profile = document.querySelector("._profilePreview_gzau3_63");
+profile.style.display = "none";
+var comm = document.querySelector("._link_gzau3_10")
+comm.style.display = "none";
+</script>"""
+html(js)
 
 headers = {
     "Content-Type": "application/json",
