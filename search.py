@@ -13,14 +13,26 @@ cse_id = "00056ba479f1e4368"
 # css
 hide_st_style = """
 <style>
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-header {visiblity: hidden;}
+#MainMenu {display: none !important;}
+footer {visibility: hidden !important;}
+header {visiblity: hidden !important;}
 a[href="https://streamlit.io/cloud"] {visibility: hidden !important;}
 div[class^="_profileContainer"] {visability: hidden !important;}
 </style>
 """
 st.markdown(hide_st_style, unsafe_allow_html=True)
+# this focuses input on text window
+html(
+    f"""
+        <script>
+            var input = window.parent.document.querySelectorAll("input[type=text]");
+            for (var i = 0; i < input.length; ++i) {{
+                input[i].focus();
+            }}
+    </script>
+    """,
+    height=0,
+)
 # js
 js = """
 <script>
