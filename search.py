@@ -9,6 +9,15 @@ primo_api = os.environ.get("PRIMO_SANDBOX_API")
 google_api = os.environ.get("NLS_GOOGLE_CUSTOM_SEARCH")
 cse_id = "00056ba479f1e4368"
 
+hide_st_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 headers = {
     "Content-Type": "application/json",
     "Accept": "application/json",
