@@ -20,6 +20,7 @@ a[href="https://streamlit.io/cloud"] {visibility: hidden !important;}
 div[class^="_profileContainer"] {visability: hidden !important;}
 </style>
 """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 # js
 js = """
 <script>
@@ -235,5 +236,4 @@ search_box = st.text_input("Search the site and catalogues")
 
 if search_box:
     search_function(search_box)
-st.markdown(hide_st_style, unsafe_allow_html=True)
 html(js)
