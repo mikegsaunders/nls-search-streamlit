@@ -13,11 +13,11 @@ cse_id = "00056ba479f1e4368"
 # css
 hide_st_style = """
 <style>
-#MainMenu {display: none;}
-footer {display: none;}
-header {display: none;}
-a[href="https://streamlit.io/cloud"] {display: none !important;}
-div[class^="_profileContainer"] {display: none !important;}
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visiblity: hidden;}
+a[href="https://streamlit.io/cloud"] {visibility: hidden !important;}
+div[class^="_profileContainer"] {visability: hidden !important;}
 </style>
 """
 # js
@@ -42,11 +42,11 @@ function waitForElm(selector) {
     });
 }
 waitForElm('._profilePreview_gzau3_63').then((profile) => {
-    profile.style.display = "none";
+    profile.style.visibility = "hidden";
 });
 
 waitForElm('._link_gzau3_10').then((comm) => {
-    comm.style.display = "none";
+    comm.style.visibility = "hidden";
 });
 </script>"""
 
